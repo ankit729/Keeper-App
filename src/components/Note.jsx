@@ -9,8 +9,4 @@ function Note(props) {
   );
 }
 
-function createNote(note) {
-  return <Note key={note.key} title={note.title} content={note.content} />;
-}
-
-export default createNote;
+export default Note;
